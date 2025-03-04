@@ -1,12 +1,21 @@
 body{
     margin-left: 15%;
     margin-right: 15%;
+    background-color: black;
+}
+
+b{
+    color: #F75C4E;
 }
 
 .container{
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
+}
+
+#espaco{
+    margin: 40px 0;
 }
 
 #header{
@@ -18,7 +27,7 @@ body{
 
     text-decoration-line: underline;
 
-    color: #070f18;
+    color: white;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -39,8 +48,10 @@ body{
     line-height: 24px;
 
     text-align: center;
-    color: #070F18;
+    color: white;
 }
+
+
 
 #menu{
     text-align: right;
@@ -48,7 +59,7 @@ body{
 }
 
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -73,7 +84,7 @@ p.gray {
     font-size: 16px;
     line-height: 32px;
 
-    color: #575455;
+    color: white;
 }
 
 #headerCta h1{
@@ -82,12 +93,13 @@ p.gray {
     font-weight: bold;
     font-size: 45px;
     
-    color: #000000;
+    color: white;
 
 }
 
 #headerImg{
     width: 100%;
+    padding-left: 200px;
 }
 
 .headerLogo{
@@ -106,7 +118,7 @@ p.gray {
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
-    color: #070F18;
+    color: white;
 }
 
 h2.red{
@@ -126,7 +138,7 @@ h1.black{
     line-height: 54px;
     letter-spacing: 0%;
     margin-top: 0;
-    color: #000000;
+    color: white;
 
 }
 
@@ -141,7 +153,7 @@ h1.black{
     font-size: 20px;
     line-height: 30px;
     
-    color: #070F18;
+    color: white;
 
 }
 
@@ -188,15 +200,79 @@ h1.black{
 
 #portfolioTitle{
     margin-top: 150px;
+    text-align: center;
+    margin-left: 50px;
 }
 
 .portfolioImg img{
  width: 100%;
+ display: grid;
+ grid-auto-flow: column;
+ columns: auto;
+
 }
 
 .portfolioImg{
-    padding: 20px;
+    padding: 10px;
 }
 
+#formulario{
+    text-align: center;
+    font-family: Poppins;
+}
 
+#titulo-formulario{
+    color: #fff;
+    padding-top: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+input{
+   width: 400px;
+   height: 60px;
+   margin-top: 30px;
+   border: 0px;
+   border-radius: 5px;
+   padding-left: 10px;
+}
+
+button{
+    background-color: #C07212;
+    height: 74px;
+    width: 286px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#bloco{
+    font-size: 24px;
+    font-family: Poppins;
+    line-height: 30px;
+}
+
+#segundo-bloco{
+    font-size: 24px;
+    font-family: Poppins;
+    line-height: 30px;
+}
+
+#botao{
+    font-size: 30px;
+    font-family: Poppins;
+    
+}
+
+button:hover{
+    background-color: #247BA0;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px red;
+    transition-duration: 0.5s;
+ }
 
